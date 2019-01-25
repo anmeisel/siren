@@ -1,0 +1,1045 @@
+<html>
+<head>
+<meta charset="utf-16">
+<meta name="viewport" content="width=device-width, maximum-scale=0.9, initial-scale=0.9">
+  <title>SIREN</title>
+
+<link href="css/siren.css" title="compact" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+<!-- <script src="js/typed.js"></script> --> 
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<!-- <script src="js/jquery-ui.js"></script> -->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+<script src="//twemoji.maxcdn.com/2/twemoji.min.js?2.3.0"></script>
+
+<link rel="icon" type="image/gif" href="sirenfavicon.gif" />
+<link rel="icon" type="image/png" href="sirenfavicon.png" />
+<link rel="shortcut icon" href="sirenfavicon.png" type="image/png" />
+
+
+
+<script>
+
+if(window.location.hash) {
+  // Fragment exists
+} else {
+  // Fragment doesn't exist
+}
+
+function gototab(reload)
+   {
+    window.location.hash = '#writing', '#mixseries', '#videos', '#calendar', '#aboutSIREN', '#SIRENDJs', '#signup', '#radio', '#workshops', '#contact', '#donate', '#links';
+    window.location.reload(true);
+   }
+else{location.hash = '.nav-tabs';
+}
+
+        </script>
+
+
+</head>
+<?php include 'convert.php';?>
+<body>
+
+<div id="background"></div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+
+<div id="options">
+
+  <ul id="myTab" class="nav nav-tabs" role="tablist"> 
+
+    <li role="presentation" class="active">
+      <h6>
+        <a data-href="#home" href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home"> 
+          <div id="sirenlogo">
+            <img src="images/siren_logo.png">
+          </div>
+        </a>
+      </h6>
+    </li> 
+
+    <h6 id="b1"><a>features</a></h6>
+          <li role="presentation">
+            <h6 class="box one"><a data-href="#writing" href="#writing" role="tab" id="writing-tab" data-toggle="tab" aria-controls="writing" data-target="#writing, #writing_else" onclick="gototab();">writing</a></h6></li>
+          <li role="presentation">
+            <h6 class="box one"><a data-href="#mixseries" href="#mixseries" role="tab" id="mixseries-tab" data-toggle="tab" aria-controls="mixseries" data-target="#mixseries, #mixseries_else" onclick="gototab();">mix series</a></h6></li>
+          <li role="presentation">
+            <h6 class="box one"><a data-href="#videos" href="#videos" role="tab" id="videos-tab" data-toggle="tab" aria-controls="videos" data-target="#videos, #videos_else" onclick="gototab();">videos</a></h6></li>
+    
+          <li role="presentation">
+            <h6><a data-href="#calendar" href="#calendar" id="calendar-tab" role="tab" data-toggle="tab" aria-controls="calendar" onclick="gototab();">calendar</a></h6></li>
+
+      <h6 id="b2"><a>shop</a></h6>
+          <li role="presentation">
+            <h6 class="box two"><a href="https://sirenldn.bandcamp.com/merch/siren-zine-issue-2" target="_blank">zines</a></h6></li>
+          <li role="presentation">
+            <h6 class="box two"><a href="https://sirenldn.bandcamp.com/merch/there-just-arent-enough-women-djs-poster" target="_blank">posters</a></h6></li>
+          <li role="presentation">
+            <h6 class="box two"><a href="https://sirenldn.bandcamp.com/" target="_blank">etc</a></h6></li>
+
+       <h6 id="b3"><a>about</a></h6>
+          <li role="presentation">
+            <h6 class="box three"><a data-href="#aboutSIREN" href="#aboutSIREN" id="aboutSIREN-tab" role="tab" data-toggle="tab" aria-controls="aboutSIREN" onclick="gototab();">about SIREN</a></h6></li>
+          <li role="presentation">
+            <h6 class="box three"><a data-href="#SIRENDJs" href="#SIRENDJs" id="SIRENDJs-tab" role="tab" data-toggle="tab" aria-controls="SIRENDJs" onclick="gototab();">SIREN DJs</a></h6></li>
+
+          <li role="presentation">
+            <h6><a data-href="#radio" href="#radio" id="radio-tab" role="tab" data-toggle="tab" aria-controls="radio" onclick="gototab();">radio</a></h6></li>
+
+          <li role="presentation">
+            <h6><a data-href="#workshops" href="#workshops" id="workshops-tab" role="tab" data-toggle="tab" aria-controls="workshops" onclick="gototab();">workshops</a></h6></li>
+
+          <li role="presentation">
+            <h6><a data-href="#signup" href="#signup" id="signup-tab" role="tab" data-toggle="tab" aria-controls="signup" onclick="gototab();">sign up</a></h6></li>
+
+          <li role="presentation">
+            <h6><a data-href="#contact" href="#contact" id="contact-tab" role="tab" data-toggle="tab" aria-controls="contact" onclick="gototab();">contact</a></h6></li>
+
+          <li role="presentation">
+            <h6><a data-href="#donate" href="#donate" id="donate-tab" role="tab" data-toggle="tab" aria-controls="donate" onclick="gototab();">donate</a></h6></li>
+
+          <li role="presentation">
+            <h6><a data-href="#links" href="#links" id="links-tab" role="tab" data-toggle="tab" aria-controls="links" onclick="gototab();">links</a></h6></li>
+
+  </ul>
+</div><!-- closed options -->
+  <script href='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js' ></script>
+
+
+<div id="myTabContent" class="tab-content">
+
+        <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+
+<div class="notframe">
+              <iframe src="http://www.sirenlondon.co.uk/spline" frameborder="0"></iframe>
+          </div>
+
+      </div>
+      <script src="js/iindex.js"></script>
+      <div role="tabpanel" class="tab-pane fade" id="writing" aria-labelledby="writing-tab">
+        <h4>WRITING</h4>
+        <article>
+          <div class="frame">
+            <figure>
+              <iframe src="https://sirenldn.tumblr.com/tagged/writing" frameborder="0"></iframe>
+            </figure>
+          </div>
+        </article>
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade" id="mixseries" aria-labelledby="mixseries-tab">
+        <h4>MIX SERIES</h4>
+          <article>
+          <div class="frame">
+            <figure>
+              <iframe width="100%" height="100%" src="https://sirenldn.tumblr.com/tagged/mixseries" frameborder="0"></iframe>
+            </figure>
+          </div>
+        </article>
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade" id="videos" aria-labelledby="videos-tab">
+        <h4>VIDEOS</h4>
+          <article>
+          <div class="frame">
+            <figure>
+              <iframe width="100%" height="100%" src="https://sirenldn.tumblr.com/tagged/videos" frameborder="0"></iframe>
+            </figure>
+          </div>
+        </article>
+        <script src="js/index.js"></script>
+      </div>
+
+
+
+
+<!-- ****** CALENDAR ****** -->
+
+      <div role="tabpanel" class="tab-pane fade" id="calendar" aria-labelledby="calendar-tab">
+<h4>UPCOMING</h4><br><br>
+
+<ul class="live-listing">     
+
+<li class="titles">
+  <div class="when">WHEN</div>
+  <div class="what">WHAT</div>
+  <div class="where">WHERE</div>
+  <div class="link">LINK</div>
+  <div class="info">INFO</div></li>
+  <br>
+
+
+<!-- We will use this section as the sample code / Copy this section, do not delete-->
+<li><div class="emoji">🌱 </div>
+  <div class="when"> Jul 29, 2017<br>19:00 - 02:00</div>
+  <div class="what">NorbergFestival 2017</div>
+  <div class="where">Gamla Banan 6, Norberg, Sweden</div>
+  <div class="link"><a href="http://norbergfestival.com/" target="_blank">Event Page</a></div>
+  <div class="info">​Norbergfestival is located at the defunct ore mine extraction site Mimerlaven, located centrally in the town of Norberg. Our stages are set up with minimal intervention in the mining facility and the adjoining power station.</div>
+  <br><br></li>
+<!-- End of sample code -->
+
+<!-- Copy and paste the sample code right underneath this section. 
+  Then change '🌱', 'Jul 29, 2017<br>19:00 - 02:00', 'NorbergFestival 2017', 'Gamla Banan 6, Norberg, Sweden', etc etc to the information you want to display. 
+  If you want the words to link to something when clicked (like when it says 'Event Page'), copy and paste the URL link into the quotation marks that come just after '<a href=' that is in the same line of the words that will have the link.
+  When you're happy with it, save the document. -->
+
+  <li><div class="emoji">🌱 </div>
+  <div class="when"> Jul 07, 2017</div>
+  <div class="what">Brainchild Festival</div>
+  <div class="where">Bentley Wildfowl & Motor Museum, East Sussex, UK</div>
+  <div class="link"><a href="http://2017.brainchildfestival.co.uk/" target="_blank">Event Page</a></div>
+  <div class="info">​East Sussex based DIY festival Brainchild invites SIREN DJs to join their lineup.</div>
+  <br><br></li>
+
+
+  <li><div class="emoji">💿 </div>
+  <div class="when"> Jul 01, 2017<br>22:00 - 04:00</div>
+  <div class="what">Let's Go Swimming</div>
+  <div class="where">Five Miles, Tottenham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/174462833077585/" target="_blank">Event Page</a></div>
+  <div class="info">​With Apeiron Crew + SIREN DJs.</div>
+  <br><br></li>
+
+  <br><br><br><br>  </ul> 
+
+<h4>PAST</h4><br><br>  
+
+<ul class="live-listing">   
+
+<li class="titles">
+  <div class="when">WHEN</div>
+  <div class="what">WHAT</div>
+  <div class="where">WHERE</div>
+  <div class="link">LINK</div>
+  <div class="info">INFO</div></li>
+  <br>
+
+  <li><div class="emoji">🔊 </div>
+  <div class="when"> Jun 22, 2017<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren" target="_blank">Listen</a></div>
+  <div class="info">​SIREN's monthly NTS show.</div>
+  <br><br></li>
+
+  <li><div class="emoji">🌱 </div>
+  <div class="when"> Jun 03, 2017<br>12:00 - 13:00</div>
+  <div class="what">Field Day Festival</div>
+  <div class="where">Victoria Park, London, UK</div>
+  <div class="link"><a href="http://fielddayfestivals.com/news/" target="_blank">Event Page</a></div>
+  <div class="info">​SIREN DJs open the RA stage at Field Day 2017.</div></li>
+  <br><br>
+
+
+  <li><div class="emoji">🎉 </div>
+  <div class="when"> May 27, 2017<br>21:00 - 05:00</div>
+  <div class="what">SIREN X Intervention Present: Recursion</div>
+  <div class="where">Unit 32, Penarth Centre, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/152179485315331/" target="_blank">Event Page</a></div>
+  <div class="info">​Live coding workshop with Joanne (algobabez) from 16:00 to 18:00, following party from 16:00 to 5:00 with lil mofo, Joanne (algobabez), ifeoluwa (intervention), SIREN DJs, MARIA BRUXXXA, A-Yes Ha's Indigo Zoom, and Neurosex3.</div></li>
+  <br><br>
+
+
+  <li><div class="emoji">✏️️ </div>
+  <div class="when"> May 20, 2017<br>14:00 - 17:00</div>
+  <div class="what">SIREN X NTS: Introduction to Radio Workshop with Throwing Shade</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/sirenldn/photos/a.1228826730468083.1073741829.1213559061994850/1719303171420434/?type=3&theater" target="_blank">Event Page</a></div>
+  <div class="info">​Our next Introduction to Radio Workshop with NTS Radio is going to be hosted by the amazing Throwing Shade on Saturday the 20th of May! She'll be giving an introduction to radio and showing you the basics of putting together a show. Sessions are free to attend and open to women & non-binary people of all ages.</div></li>
+  <br><br>
+
+
+  <li><div class="emoji">🔊 </div>
+  <div class="when"> May 18, 2017<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren/episodes/siren-20th-april-2017" target="_blank">Listen</a></div>
+  <div class="info">​SIREN's monthly NTS show with guestmix from Peach.</div></li>
+  <br><br>
+
+
+<li><div class="emoji">🎉 </div>
+  <div class="when"> May 13, 2017<br>22:00 - 10:00</div>
+  <div class="what">R4R X SIREN</div>
+  <div class="where">://about blank, Berlin, Germany</div>
+  <div class="link"><a href="https://www.facebook.com/events/270970550028387/" target="_blank">Event Page</a></div>
+  <div class="info"><a href="https://www.facebook.com/room4resistance/" target="_blank">Room 4 Resistance</a> returns to ://about blank on Saturday May 13th, this time inviting SIREN from London for a collaborative event. The two like-minded collectives will come together at ://about blank in Berlin and feature Octo Octa, rRoxymore, Bambii, yhayha, JORDEE, R4R DJs & SIREN DJs.</a></div></li>
+  <br><br>
+
+
+<li><div class="emoji">💿 </div>
+  <div class="when"> May 12, 2017<br>23:00 - 18:00</div>
+  <div class="what">Balance presents SIREN w/ Laurel Halo, The Empire Line (live)</div>
+  <div class="where">Institut fuer Zukunft, Leipzig, Germany</div>
+  <div class="link"><a href="https://www.facebook.com/events/411383919231638" target="_blank">Event Page</a></div>
+  <div class="info">BALANCE continues into 2017 with its third collaborative event, proudly presenting the queer / femme collective SIREN. Preceding the dance floor experience, BALANCE has organised a workshop series and performance with choreographer CARMEL KÖSTER, and will participate on a introductory panel with special guests at Conne Island the same evening.</a></div></li>
+  <br><br>
+
+
+  <li><div class="emoji">💿 </div>
+  <div class="when"> Apr 22, 2017<br>22:30 - 04:00</div>
+  <div class="what">The Run Out After Party</div>
+  <div class="where">The Copeland Gallery, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.residentadvisor.net/event.aspx?954478" target="_blank">Event Page</a></div>
+  <div class="info">​The Run Out's RSD after party with Hyperdub DJs, Night Slugs DJs, SIREN DJs, 22a DJs & Rye Wax.</div></li>
+  <br><br>
+
+  <li><div class="emoji">🔊 </div>
+  <div class="when"> Apr 20, 2017<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren/episodes/siren-20th-april-2017" target="_blank">Listen</a></div>
+  <div class="info">​SIREN's monthly NTS show with guestmix from Nene H.</div></li>
+  <br><br>
+
+  <li><div class="emoji">✏️️ </div>
+  <div class="when"> Apr 15, 2017<br>14:00 - 17:00</div>
+  <div class="what">SIREN X NTS: Introduction to Radio Workshop with Moxie
+</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/sirenldn/photos/a.1228826730468083.1073741829.1213559061994850/1664896646861087/?type=3&theater">Event Page</a></div>
+  <div class="info">​This month's workshop will be led by Moxie! She'll be giving an introduction to radio and showing you the ropes of putting together a show.</div></li>
+  <br><br>
+
+<li><div class="emoji">🎉 </div>
+  <div class="when"> Mar 25, 2017<br>22:00 - 06:00</div>
+  <div class="what">SIREN X Chapter 10 Present Chapter Femme</div>
+  <div class="where">Bloc, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/342634249465708/" target="_blank">Event Page</a></div>
+  <div class="info">With K-HAND, Debonair and SIREN DJs.</div></li>
+  <br><br>
+
+<li><div class="emoji">🔊 </div>
+  <div class="when"> Mar 23, 2017<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren/episodes/siren-23rd-march-2017" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly NTS show with guestmix from Maja Pa.</div></li>
+  <br><br>
+
+<li><div class="emoji">💿 </div>
+  <div class="when"> Mar 23, 2017<br>20:00 - 12:00</div>
+  <div class="what">ICA Music: Wysing Polyphonic Record Launch</div>
+  <div class="where">ICA, The Mall, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/241414336267619/" target="_blank">Event Page</a></div>
+  <div class="info">The ICA are pleased to collaborate with <a href="https://www.facebook.com/pages/Wysing-Arts-Centre/536420726397493">Wysing Arts Centre</a> to launch their new record label Wysing Polyphonic, with a live performance by the first band to release on the label, Ectopia, alongside special guests xname, SIREN DJs and N-Prolenta.</div></li>
+  <br><br>
+
+<li><div class="emoji">💿 </div>
+  <div class="when"> Mar 13, 2017<br>19:00 - 23:00</div>
+  <div class="what">The XX Present Night + Day</div>
+  <div class="where">The O2 Academy Brixton, London, UK</div>
+  <div class="link"><a href="http://nightandday.twickets.co.uk/" target="_blank">Event Page</a></div>
+  <div class="info">with Cat Power, Jehnny Beth (Savages) + SIREN DJs.</div></li>
+  <br><br>
+
+  <li><div class="emoji">💿 </div>
+  <div class="when"> Mar 08, 2017<br>21:00 - 02:00</div>
+  <div class="what">Camgirls 2.0 Launch X International Women's Day Fundraiser</div>
+  <div class="where">The Alibi, Dalston, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/424246047912994/" target="_blank">Event Page</a></div>
+  <div class="info">CAMGIRLS is an interactive, collaborative project for today's Venus, using art to open up discussions about women on the internet. It's back! We're celebrating International Women's Day and raising funds for the amazingNational Ugly Mugs Charity. With music from GROSSMARY, BBZ London, Amz/MAGIC CLIT, Klein (DJ set) & SIREN DJs.</div></li>
+  <br><br>
+
+  <li><div class="emoji">✏️️ </div>
+  <div class="when"> Mar 04, 2017<br>14:00 - 17:00</div>
+  <div class="what">SIREN X NTS: Introduction to Radio Workshop with A.G</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/sirenldn/photos/a.1228826730468083.1073741829.1213559061994850/1622718167745602/?type=3&theater" target="_blank">Event Page</a></div>
+  <div class="info">The awesome A.G (The #MnM show) will be giving an introduction to radio and showing you the ropes of putting together a show.
+Sessions are free to attend and open to women & non-binary people of all ages.</div></li>
+  <br><br>
+
+  <li><div class="emoji">🎹 </div>
+  <div class="when"> Feb 24, 2017<br>19:00 - 23:00</div>
+  <div class="what">SIREN presents Wilted Woman</div>
+  <div class="where">1 Silver Road, Lewisham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/1359848610761007/" target="_blank">Event Page</a></div>
+  <div class="info">SIREN's first live AV show brings over Berlin's Wilted Woman to play at 1 Silver Road: an intimate converted water tank turned venue in Lewisham. Featuring support from Object Blue and live visuals from Letty Fox. Advance tickets only - (please email hello@sirenlondon.co.uk to purchase).</div></li>
+  <br><br>
+
+  <li><div class="emoji">🔊 </div>
+  <div class="when"> Feb 23, 2017<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren/episodes/siren-w-wilted-woman-23rd-february-2017" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthyl NTS show with guest live set from Wilted Woman.</div></li>
+  <br><br>
+
+  <li><div class="emoji">✏️️ </div>
+  <div class="when"> Feb 11, 2017<br>14:00 - 17:00</div>
+  <div class="what">SIREN X NTS: Introduction to Radio Workshop with DEBONAIR
+</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/sirenldn/photos/a.1228826730468083.1073741829.1213559061994850/1594041807279905/?type=3&theater" target="_blank">Event Page</a></div>
+  <div class="info">We are thrilled to announce the first in a series of radio workshops for women and non binary people that we will be running with NTS Radio! Our first session will be hosted by the inimitable DEBONAIR on the 11th of February who will help you put together the skills for that radio show idea you’ve been itching to develop.</div></li>
+  <br><br>
+
+
+  <li><div class="emoji">🔊 </div>
+  <div class="when"> Jan 26, 2017<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren/episodes/siren-w-anina-26th-january-2017" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly NTS show with guestmix from Anina.</div></li>
+  <br><br>
+
+
+  <li><div class="emoji">🎉 </div>
+  <div class="when"> Jan 14, 2017<br>19:00 - 07:00</div>
+  <div class="what">SIREN First Birthday Party</div>
+  <div class="where">Secret London Location, UK</div>
+  <div class="link"><a href="" target="_blank"></a></div>
+  <div class="info">SIREN DJs + friends celebrate SIREN's first birthday alongside open decks and workshops.</div></li>
+  <br><br>
+
+  <li><div class="emoji">🎉 </div>
+  <div class="when"> Dec 10, 2016<br>20:00 - 23:00</div>
+  <div class="what">AMPLIFY: SIREN X Discwoman X Brutaz</div>
+  <div class="where">DIY Space for London, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/224673451277495/" target="_blank">Event Page</a></div>
+  <div class="info">SIREN (London), Discwoman (NY) and Brutaż (Warsaw) join together for AMPLIFY: a series of screaming workshops taking place in London, New York and Warsaw.</div></li>
+  <br><br>
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Dec 01, 2016<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren/episodes/siren-w-cl-1st-december-2016" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly NTS show with guestmix from CL.</div></li>
+  <br><br>
+
+
+    <li><div class="emoji">🎉 </div>
+  <div class="when"> Nov 24, 2016<br>22:00 - 02:30</div>
+  <div class="what">SIREN w/ Dr. Rubinstein + Venus Ex Machina</div>
+  <div class="where">Rye Wax, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/1632080733750931/" target="_blank">Event Page</a></div>
+  <div class="info">SIREN presents... Dr. Rubinstein, Venus Ex Machina + SIREN DJs.</div></li>
+  <br><br>
+
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Nov 19, 2016<br>18:00 - 19:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren/episodes/siren-19th-november-2016" target="_blank">Listen</a></div>
+  <div class="info">SIREN do a special NTS show with Solid Blake on Channel 2.</div></li>
+  <br><br>
+
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Nov 03, 2016<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/NTSRadio/siren-3rd-november-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly NTS show with guestmix from Nazira.</div></li>
+  <br><br>
+
+    <li><div class="emoji">💬 </div>
+  <div class="when"> Nov 03, 2016<br>19:00 - 23:00</div>
+  <div class="what">Techno & The City</div>
+  <div class="where">Fiumano Projects, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/679470992206529/" target="_blank">Listen</a></div>
+  <div class="info">Techno&Philosophy and Fiumano Projects present: "Techno and The City" - An art exhibition. 3 November sees a SIREN members take part in a panel discussion, performances and a DJ set.</div></li>
+  <br><br>
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Oct 13, 2016<br>21:00 - 23:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/NTSRadio/siren-13th-october-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly NTS show.<br><i>Please note that this month's show is on Channel 2, at the different time of 22:00 - 23:00.</i></div></li>
+  <br><br>
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Sep 08, 2016<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="http://www.nts.live/shows/siren/episodes/siren-w-subdermic-8th-september-2016" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly NTS show with guestmix from The Subdermic.</div></li>
+  <br><br>
+
+    <li><div class="emoji">🌱 </div>
+  <div class="when"> Aug 26, 2016<br>16:00 - 03:00</div>
+  <div class="what">CHART Art Fair Opening Concert</div>
+  <div class="where">Kunsthal Charlottenborg, Copenhagen, Denmark</div>
+  <div class="link"><a href="https://www.facebook.com/events/974080962705003/" target="_blank">Event Page</a></div>
+  <div class="info">With SIREN DJs</div></li>
+  <br><br>
+
+    <li><div class="emoji">🎉 </div>
+  <div class="when"> Aug 20, 2016<br>18:00 - 03:00</div>
+  <div class="what">SIREN Presents: Synchronise</div>
+  <div class="where">The Yard, Hackney Wick, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/218612798540082/" target="_blank">Event Page</a></div>
+  <div class="info">Fundraiser for Sisters Uncut with Special Guest, Covco, UNITI, Resis'Dance, Goldsnap, Tone (Gal-Dem), The Batty Mama, Ndeko & SIREN DJs.</div></li>
+  <br><br>
+
+    <li><div class="emoji">💿 </div>
+  <div class="when"> Aug 19, 2016<br>23:00 - 05:00</div>
+  <div class="what">As Below, So Above</div>
+  <div class="where">Bussey Building, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/561189150727014/" target="_blank">Event Page</a></div>
+  <div class="info">SIREN take over the Rye Wax basement with sets from Machine Woman & SIREN DJs.</div></li>
+  <br><br>
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Aug 11, 2016<br>20:00 - 22:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/NTSRadio/siren-11th-august-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly NTS show.</div></li>
+  <br><br>
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Aug 09, 2016<br>11:00 - 13:00</div>
+  <div class="what">Balamii Radio X SIREN</div>
+  <div class="where">Balamii radio, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/balamii/siren-aug-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN guest mix for Balamii Radio.</div></li>
+  <br><br>
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Jul 19, 2016<br>00:00 - 02:00</div>
+  <div class="what">Radar Radio X SIREN</div>
+  <div class="where">Radar Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/RadarRadioLDN/siren-19th-july-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly Radar show.</div></li>
+  <br><br>
+
+    <li><div class="emoji">🎉 </div>
+  <div class="when"> Jul 07, 2016<br>22:00 - 02:30</div>
+  <div class="what">SIREN w/ rRoxymore [Live Set], Moonbow LIVE + SIREN DJs</div>
+  <div class="where">Rye Wax, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/267207503633693/" target="_blank">Event Page</a></div>
+  <div class="info">SIREN Presents rRoxymore (Live), Moonbow (Live) & SIREN DJs.</div></li>
+  <br><br>
+
+      <li><div class="emoji">🔊 </div>
+  <div class="when"> Jun 21, 2016<br>00:00 - 02:00</div>
+  <div class="what">Radar Radio X SIREN</div>
+  <div class="where">Radar Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/RadarRadioLDN/siren-w-proteus-21st-june-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly Radar show, with guestmix from Proteus.</div></li>
+  <br><br>
+
+    <li><div class="emoji">🔊 </div>
+  <div class="when"> Jun 16, 2016<br>18:00 - 20:00</div>
+  <div class="what">Radar Radio Presents: Access With... Martha & SIREN</div>
+  <div class="where">Radar Studios, London, UK</div>
+  <div class="link"><a href="http://www.radarradio.com/blog/access-with-martha-kenny-allstar-jack-dat-radar-radio-live" target="_blank">Event Page</a></div>
+  <div class="info">Radar Radio opens its doors to a public audience with sets from Martha & SIREN.</div></li>
+  <br><br>
+
+   <li><div class="emoji">🔊 </div>
+  <div class="when"> Jun 10, 2016<br>17:00 - 19:00</div>
+  <div class="what">NTS: SIREN</div>
+  <div class="where">NTS Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/NTSRadio/siren-10th-june-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN guestmix for NTS radio.</div></li>
+  <br><br>
+
+   <li><div class="emoji">🔊 </div>
+  <div class="when"> May 28, 2016<br>15:00 - 17:00</div>
+  <div class="what">Balamii Radio X SIREN</div>
+  <div class="where">Balamii radio, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/balamii/siren-may-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN guestmix for Balamii Radio.</div></li>
+  <br><br>
+
+   <li><div class="emoji">💿 </div>
+  <div class="when"> May 27, 2016<br>19:00 - 23:30</div>
+  <div class="what">WORLD of PAIN Vol. 1</div>
+  <div class="where">Unit 16, Brixton, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/1745564279015897" target="_blank">Event Page</a></div>
+  <div class="info">NOiD, Neil Quigley, Jorge Coco and SIREN DJs.</div></li>
+  <br><br>
+
+   <li><div class="emoji">🔊 </div>
+  <div class="when"> May 17, 2016<br>00:00 - 02:00</div>
+  <div class="what">Radar Radio X SIREN</div>
+  <div class="where">Radar Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/RadarRadioLDN/siren-may-17th-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly Radar show with guestmix from Anja Zaube.</div></li>
+  <br><br>
+
+   <li><div class="emoji">💬 </div>
+  <div class="when"> May 13, 2016<br>16:00 - 17:00</div>
+  <div class="what">SIREN & CDR Present: Addressing Imbalance in the Music Industry</div>
+  <div class="where">Bussey Building, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/220344205015166/" target="_blank">Event Page</a></div>
+  <div class="info">SIREN host a panel discussion with Lara Rix Martin (Objects Ltd), Natasha Shehata (Wired Radio), Aurora Mitchell (Dummy, Crack Magazine) & Stephseeks (Born n Bread) as part of CDR's Knowledge day of workshops and industry insights.</div></li>
+  <br><br>
+
+   <li><div class="emoji">💿 </div>
+  <div class="when"> May 12, 2016</div>
+  <div class="what">Five Bells with SIREN</div>
+  <div class="where">Five Bells, New Cross, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/sirenldn/photos/a.1228826730468083.1073741829.1213559061994850/1316855441665211/?type=3&theater" target="_blank"></a>Event Page</div>
+  <div class="info">With SIREN DJs.</div></li>
+  <br><br>
+
+   <li><div class="emoji">💿 </div>
+  <div class="when"> May 05, 2016<br>20:00 - 02:30</div>
+  <div class="what">Rye Wax After Dark with Ikonika & Siren</div>
+  <div class="where">Rye Wax, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/258072321203148/" target="_blank">Event Page</a></div>
+  <div class="info">With Ikonika + SIREN DJs.</div></li>
+  <br><br>
+
+   <li><div class="emoji">🔊 </div>
+  <div class="when"> Apr 29, 2016<br>21:00 - 22:00</div>
+  <div class="what">N10.as Radio X SIREN</div>
+  <div class="where">N10.as Radio, Montreal, Quebec, Canada</div>
+  <div class="link"><a href="https://www.mixcloud.com/n10as/genero-mix-29042016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN guestmix for Genero Sound on N10.as Radio.</div></li>
+  <br><br>
+
+   <li><div class="emoji">🔊 </div>
+  <div class="when"> Apr 19, 2016<br>00:00 - 02:00</div>
+  <div class="what">Radar Radio X SIREN</div>
+  <div class="where">Radar Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/RadarRadioLDN/siren-19th-april-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly Radar show.</div></li>
+  <br><br>
+
+   <li><div class="emoji">💿 </div>
+  <div class="when"> Apr 16, 2016<br>12:00 - 22:00</div>
+  <div class="what">It's Not RSD But It's OK</div>
+  <div class="where">Rye Wax, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/1042473885791843/" target="_blank">Event Page</a></div>
+  <div class="info">In-store sets all day at Rye Wax, featuring sets from SIREN DJs.</div></li>
+  <br><br>
+
+   <li><div class="emoji">🎉 </div>
+  <div class="when"> Apr 14, 2016<br>22:00 - 02:30</div>
+  <div class="what">SIREN presents Apeiron Crew (London Debut) & SIREN residents</div>
+  <div class="where">Rye Wax, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/827436247389895/" target="_blank">Event Page</a></div>
+  <div class="info">SIREN presents Apeiron Crew (London debut) & SIREN DJs.</div></li>
+  <br><br>
+
+<!--    <li><div class="emoji">🔊 </div>
+  <div class="when"> Jan 01, 2020</div>
+  <div class="what">Reprezent Radio X SIREN</div>
+  <div class="where">Pop Brixton, Brixton, London, UK</div>
+  <div class="link"><a href="" target="_blank"></a></div>
+  <div class="info">SIREN guestmix for Reprezent Radio (107.3FM)</div></li>
+  <br><br> -->
+
+   <li><div class="emoji">🔊 </div>
+  <div class="when"> Mar 15, 2016<br>00:00 - 02:00</div>
+  <div class="what">Radar Radio X SIREN</div>
+  <div class="where">Radar Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/RadarRadioLDN/15th-march-siren/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly Radar show, with guestmix from Lenny Jams.</div></li>
+  <br><br>
+
+   <li><div class="emoji">🔊 </div>
+  <div class="when"> Feb 16, 2016<br>00:00 - 02:00</div>
+  <div class="what">Radar Radio X SIREN</div>
+  <div class="where">Radar Studios, London, UK</div>
+  <div class="link"><a href="https://www.mixcloud.com/RadarRadioLDN/siren-16th-february-2016/" target="_blank">Listen</a></div>
+  <div class="info">SIREN's monthly Radar show.</div></li>
+  <br><br>
+
+   <li><div class="emoji">🎉 </div>
+  <div class="when"> Jan 14, 2016<br>22:00 - 02:30</div>
+  <div class="what">SIREN LAUNCH w/ resom, Lenny Jams + SIREN DJs</div>
+  <div class="where">Rye Wax, Peckham, London, UK</div>
+  <div class="link"><a href="https://www.facebook.com/events/733723853399703/" target="_blank">Event Page</a></div>
+  <div class="info">SIREN launch with Resom (://about:blank), Lenny Jams & SIREN DJs.</div></li>
+  <br><br><br>
+
+</ul><!-- closed live-listing -->
+
+</div><!-- closed calendar-tab -->
+
+<!-- ****** END OF CALENDAR ****** -->
+
+
+<div role="tabpanel" class="tab-pane fade" id="aboutSIREN" aria-labelledby="aboutSIREN-tab">
+          <h4>ABOUT SIREN</h4>
+<p class="about">SIREN is a London based collective formed in 2016. Our aim is to create a safe and immersive space for those who are underrepresented in dance music, whilst continuing to critique the electronic music scene as a whole. Alongside throwing parties and music events, we publish a zine and online platform, run a monthly NTS radio show, host workshops and consult on other events. Members of the collective are also DJs, producers, VJs, writers, graphic designers and fine artists.</p>
+<div class="steph">
+            <img src="images/StephWilson.jpg">
+          </div>
+          <br><br>
+<h5>Press</h5><br>
+    <div class="press">
+      <div class="circle">
+  <img src="images/straylandings.png">
+  <br>
+<a href="http://straylandings.co.uk/articles/that-time-when-siren" target="_blank">
+  <small>Stray Landings</small> &#8594;<br> That Time When: SIREN
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/eb.png">
+  <br>
+<a href="http://www.electronicbeats.net/siren-room-4-resistance-conversation/" target="_blank">
+  <small>EB</small> &#8594;<br> SIREN in conversation with Room 4 Resistance
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/wonderland.png">
+  <br>
+<a href="https://www.wonderlandmagazine.com/2017/05/26/siren/" target="_blank">
+  <small>Wonderland</small> &#8594;<br> SIREN interviews Joanne
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/guardian.png">
+  <br>
+<a href="https://www.theguardian.com/music/2017/mar/10/siren-club-crew-favourite-tracks" target="_blank">
+  <small>The Guardian</small> &#8594;<br> Harangue the DJ
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/crack.png">
+  <br>
+<a href="https://crackmagazine.net/article/music/features/architecture-sound-wilted-woman-silver-road/" target="_blank">
+  <small>CRACK</small> &#8594;<br> The Architecture of Sound: SIREN interviews Wilted Woman
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/eb.png">
+  <br>
+<a href="http://www.electronicbeats.net/best-all-female-lineups-2016/" target="_blank">
+  <small>EB</small> &#8594;<br> Best all-female line-ups of 2016
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/crack.png">
+  <br>
+<a href="http://crackmagazine.net/article/music/get-together/" target="_blank">
+  <small>CRACK</small> &#8594;<br> Collectives piece
+      </div>
+
+      <div class="circle">
+  <img src="images/dazed.png">
+  <br>
+<a href="http://www.dazeddigital.com/music/article/32485/1/the-dj-collectives-making-partying-political" target="_blank">
+  <small>Dazed</small> &#8594;<br> SIREN interviews UNITI, BBZ, Goldsnap, Batty Mama & Resis’dance
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/eb.png">
+  <br>
+<a href="http://www.electronicbeats.net/all-female-lineups/" target="_blank">
+  <small>EB</small> &#8594;<br> Do all female lineups really help women in electronic music?
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/pwww.png">
+  <br>
+<a href="http://www.pw-magazine.com/2016/london-crew-siren-defy-sexism-in-dance-music/" target="_blank">
+  <small>PW Magazine</small> &#8594;<br> London Crew Siren Defy Sexism in Dance Music
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/dazed.png">
+  <br>
+<a href="http://www.dazeddigital.com/music/article/30653/1/siren-london-clubbing-zine-partying-collective-female-girl" target="_blank">
+  <small>Dazed</small> &#8594;<br> Interview
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/gal-dem.png">
+  <br>
+<a href="http://www.gal-dem.com/siren-changing-face-white-male-cisgender-dj-culture/" target="_blank">
+  <small>Gal-Dem</small> &#8594;<br> SIREN: Changing the face of white, male, cisgender dance music
+</a>
+      </div>
+
+      <div class="circle">
+  <img src="images/fader.png">
+  <br>
+<a href="http://www.thefader.com/2016/02/17/female-dj-crews-discwoman-sister-mahoyo-tgaf" target="_blank">
+  <small>The Fader</small> &#8594;<br> 9 All-Female DJ Collectives You Need To Know Right Now
+</a>
+      </div>
+    </div><!-- closed press -->
+<p><small><a href="http://www.sirenlondon.co.uk/spline" target="_blank">Home page cover art</a> created by <a href="https://m.facebook.com/flufflord/" target="_blank">FluffLord</a><br>Website developed by <a href="http://www.anameisel.com" target="_blank">Ana Meisel<br><br><br></a></small></p>
+      </div>
+
+<div role="tabpanel" class="tab-pane fade" id="SIRENDJs" aria-labelledby="SIRENDJs-tab">
+          <h4>SIREN DJs</h4>
+<p class="about">SIREN is a collective that started a year ago with the purpose of creating a space for those under-represented in dance music on lineups and in crowds. SIREN DJs honed their high energy sets soundtracking their own parties across London, playing techno in its broadest sense, from electro and breakbeat to minimal, acid and trance. As a collective their parties, zines and NTS shows aim to be musical and political platforms for women & non-binary people, as well as a space to critique current trends within electronic music and create their own alternatives.<br><br><br>&darr;</p><br>
+
+<div class="archive">
+
+<div class="djdj" style="width:85%;
+  min-width: 200px;">
+<img class="djdj" src="images/fran.gif" style="min-width:200px;
+  width:22vw;
+  position:relative;
+  height:auto;
+  float:right;
+  margin-left: 2vw;
+  margin-bottom: 15px;">
+<h1>Fran - VJ</h1>
+<p>Fran is a multidisciplinary artist working across video, text and graphics. Her live visual installations aim to enhance the sonic and physical experiences of being in the club, without taking the focus away from the musical elements of the space. Inspired by sci-fi narratives, cyberfeminism and glitch aesthetics, she creates glittering textures, objects and virtual spaces.<br>
+<i><a href="http://newhive.com/flriley/visuals" target="_blank">Portfolio</i> &#8594;</a></p>
+<div style="clear: both"></div>
+          </div>
+
+<div class="djdj" style="width:85%;
+  min-width: 200px;">
+<img class="djdj" src="images/jay_d.gif" style="min-width:200px;
+  width:22vw;
+  position:relative;
+  height:auto;
+  float:right;
+  margin-left: 2vw;
+  margin-bottom: 15px;">
+<h1>Jay D - DJ</h1>
+<p>With an acquired taste for anything psychedelic, Jay D’s love for electronic music stems from 80’s new wave, punk and coldwave. Her equal obsession with high energy acid house, 90’s techno and trance combined with her roots in dark synthy electro and percussion based grooves makes for dynamic sets which showcase her eclectic style and diverse appreciation for music across genres and timespans.<br>
+<i><a href="http://www.nts.live/shows/siren/episodes/siren-11th-august-2016" target="_blank">Listen</i> &#8594;</a></p>
+<div style="clear: both"></div>
+          </div>
+
+<div class="djdj" style="width:85%;
+  min-width: 200px;">
+<img class="djdj" src="images/moonbow.gif" style="min-width:200px;
+  width:22vw;
+  position:relative;
+  height:auto;
+  float:right;
+  margin-left: 2vw;
+  margin-bottom: 15px;">
+<h1>Moonbow - DJ / Producer</h1>
+<p>Moonbow is the moniker of producer and DJ   Eleanor Hardwick . Working by day as a photographer and music video director, her passion lies in combining mediums to create conceptual, immersive sonic experiences. Crack Magazine described her approach as "contributing avant-garde pop to a techno-orientated scene” which is reflected both in her own productions, and her eclectic DJ sets and mixes, that often combine both organic and electronic sounds, featuring anything from breakbeat, acid, footwork, early dubstep and IDM - to the psychedelic modular experiments of early electronic music.<br>
+<i><a href="http://soundcloud.com/moonbowmusic" target="_blank">Listen</i> &#8594;</a></p>
+<div style="clear: both"></div>
+          </div>
+
+<div class="djdj" style="width:85%;
+  min-width: 200px;">
+<img class="djdj" src="images/re-ni.gif" style="min-width:200px;
+  width:22vw;
+  position:relative;
+  height:auto;
+  float:right;
+  margin-left: 2vw;
+  margin-bottom: 15px;">
+<h1>re:ni - DJ</h1>
+<p>Growing up listening to drum & bass, dubstep and garage, as a selector Lauren (re:ni) plays an energetic blend of UK techno, breaks and electro.<br>
+<i><a href="https://soundcloud.com/rob_booth/reni-471-electronic-explorations" target="_blank">Listen</i> &#8594;</a></p>
+<div style="clear: both"></div>
+          </div>
+
+<div class="djdj" style="width:85%;
+  min-width: 200px;">
+<img class="djdj" src="images/slime_eye.gif" style="min-width:200px;
+  width:22vw;
+  position:relative;
+  height:auto;
+  float:right;
+  margin-left: 2vw;
+  margin-bottom: 15px;">
+<h1>Slime Eye - DJ</h1>
+<p>Dark & weird, Slime Eye plays techno, EBM, electro and anything at 100bpm.<br>
+<i><a href="https://soundcloud.com/sirenldn/nts-siren-w-wilted-woman-230217" target="_blank">Listen</i> &#8594;</a></p>
+<div style="clear: both"></div>
+          </div>
+
+<div class="djdj" style="width:85%;
+  min-width: 200px;">
+<img class="djdj" src="images/sybil.gif" style="min-width:200px;
+  width:22vw;
+  position:relative;
+  height:auto;
+  float:right;
+  margin-left: 2vw;
+  margin-bottom: 15px;">
+<h1>Sybil - DJ</h1>
+<p>As a DJ Sybil’s selections embrace the ravey side of techno; favouring broken rhythms, low-swung electro, absurd acid trance, and anything with a breakbeat. Working by day behind the counter at Rye Wax, her taste has also been influenced by the shop’s trademark appetite for strange sounds.<br>
+<i><a href="http://soundcloud.com/sybilmonique" target="_blank">Listen</i> &#8594;</a></p>
+<div style="clear: both"></div>
+          </div>
+
+<br><br>
+      </div>
+    </div>
+
+<div role="tabpanel" class="tab-pane fade" id="signup" aria-labelledby="signup-tab">
+          <h4>SIGN UP</h4>
+          <p class="about1">Subscribe to our mailing list below:</p><br><br>
+
+    <div id="mc_embed_signup" style="color:black;" class="about1">
+<form action="//facebook.us14.list-manage.com/subscribe/post?u=5a9ab125d5309620fa15a4eab&amp;id=30c0c26cc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="color:black;">
+    <div id="mc_embed_signup_scroll" style="color:black;">
+  <input type="email" style="width: 50%;min-width:200px;color:black;font-family: TeX Gyre Heros, sans-serif; font-size: 13px; color: #000000;font-weight: 500;letter-spacing: 1px; margin-left:0;" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input style="color:black;" type="text" name="b_5a9ab125d5309620fa15a4eab_30c0c26cc7" tabindex="-1" value=""></div>
+    <div class="clear"><input style="width: 50%;min-width:200px;font-family: TeX Gyre Heros, sans-serif; font-size: 13px; border:#000 1px solid; color: black;background-color: transparent;font-weight: 500;letter-spacing: 1px; margin-left:0;" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" ></div>
+    </div><!-- mc_embed_signup_scroll -->
+</form>
+</div><!-- mc_embed_signup -->
+</div>
+
+<div role="tabpanel" class="tab-pane fade" id="radio" aria-labelledby="radio-tab">
+          <h4>RADIO</h4>
+<p class="about">We have a monthly show on NTS Radio, Thursday 20:00 - 22:00.<br>Archive of shows with tracklists: <a href="http://www.nts.live/shows/siren">www.nts.live/shows/siren</a></p><br>
+          <div class="radio">
+<iframe  scrolling="yes" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/281341045&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe></div>
+      </div>
+
+<div role="tabpanel" class="tab-pane fade" id="workshops" aria-labelledby="workshops-tab">
+          <h4>WORKSHOPS</h4>
+          <div class="workheader"<h1>SIREN X NTS: Introduction to Radio Workshops</div>
+<p class="about">A joint project between SIREN and <a href="http://nts.live">NTS</a> with the aim of introducing more women and non-binary people to radio. For each workshop session we bring in an NTS host to teach a masterclass to a group of 12 women and non-binary people, then we split the class into groups to rotate around different exercises and have a go on some equipment before the end of the session. Past NTS hosts for these have been DEBONAIR, A.G, Moxie and Throwing Shade. These sessions are open to all ages and free to attend.<br><br>Photos of past workshops in action:</p>
+<div class="steph">
+            <img src="images/workshop1.jpg">
+          </div>
+          <br><br>
+      </div>
+
+<div role="tabpanel" class="tab-pane fade" id="contact" aria-labelledby="contact-tab">
+          <h4>CONTACT</h4>
+<p class="about1">For SIREN DJ bookings, to submit your work for consideration for online features, zine contributions, mix series, being involved in one of our events, possible collaborations, or to just say Hi please email us on:<br>
+<a href="mailto:hello@sirenlondon.co.uk?subject=Hello">
+  <b>hello[@]sirenlondon[.]co[.]uk</b>
+</a><br><br>
+To contact SIREN members individually, for DJ bookings and other projects, please email:</p>
+<p class="about22">
+    <a href="mailto:charlotte@sirenlondon.co.uk?subject=Hello">
+      <b>charlotte[@]sirenlondon[.]co[.]uk</b>
+    </a><br>
+    <a href="mailto:eleanor@sirenlondon.co.uk?subject=Hello">
+      <b>eleanor[@]sirenlondon[.]co[.]uk</b>
+    </a><br>
+    <a href="mailto:fran@sirenlondon.co.uk?subject=Hello">
+      <b>fran[@]sirenlondon[.]co[.]uk</b>
+    </a><br>
+    <a href="mailto:jay@sirenlondon.co.uk?subject=Hello">
+      <b>jay[@]sirenlondon[.]co[.]uk</b>
+    </a><br>
+    <a href="mailto:lauren@sirenlondon.co.uk?subject=Hello">
+      <b>lauren[@]sirenlondon[.]co[.]uk</b>
+    </a><br>
+    <a href="mailto:sybil@sirenlondon.co.uk?subject=Hello">
+      <b>sybil[@]sirenlondon[.]co[.]uk</b>
+    </a><br>
+    <br>
+</p>
+
+      </div>
+
+      <div role="tabpanel" class="tab-pane fade" id="donate" aria-labelledby="donate-tab">
+<h4>DONATE</h4>
+<p class="about1">
+SIREN is a self funded, non-for-profit project run voluntarily by its core members. All of the money we make from our events and DJ sets goes back into continuing our work and paying collaborators fairly. <br> We always appreciate your support if you would like to donate! <br>💸<br><br>
+</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
+
+    <!-- Identify your business so that you can collect the payments. -->
+    <input type="hidden" name="business"
+        value="hello@sirenlondon.co.uk">
+
+    <!-- Specify a Donate button. -->
+    <input type="hidden" name="cmd" value="_donations">
+
+    <!-- Specify details about the contribution -->
+    <input type="hidden" name="item_name" value="SIREN">
+    <input type="hidden" name="item_number" value="Donation">
+    <input type="hidden" name="currency_code" value="GBP">
+
+    <!-- Display the payment button. -->
+    <input type="image" name="submit"
+    src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_92x26.png"
+    alt="Donate">
+    <img alt="" width="1" height="1"
+    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+
+</form>
+      </div>
+
+            <div role="tabpanel" class="tab-pane fade" id="links" aria-labelledby="links-tab">
+<h4>LINKS</h4>
+<p class="about">
+These are some of the crews, platforms & organisations that inspire us<br>[constantly evolving]
+<br><br>
+
+<h5>Organisations</h5>
+<a href="http://antiuniversity.org" target="_blank">antiuniversity.org</a><br><br>
+<a href="http://www.wysingartscentre.org" target="_blank">wysingartscentre.org</a><br><br>
+<a href="http://www.sistersuncut.org" target="_blank">sistersuncut.org</a><br><br>
+<a href="http://prostitutescollective.net" target="_blank">prostitutescollective.net</a><br><br>
+<a href="https://network23.org/antiraids/" target="_blank">network23.org/antiraids</a><br><br>
+<a href="http://www.movementforjustice.org/" target="_blank">movementforjustice.org</a><br><br>
+
+<h5>Publications & blogs</h5>
+<a href="http://www.gal-dem.com" target="_blank">gal-dem.com</a><br><br>
+<a href="http://www.polyesterzine.com" target="_blank">polyesterzine.com</a><br><br>
+<a href="http://datacide-magazine.com/" target="_blank">datacide-magazine.com</a><br><br>
+<a href="https://coralthinkstoomuch.wordpress.com/" target="_blank">coralthinkstoomuch.wordpress.com</a><br><br>
+<a href="https://soundstudiesblog.com" target="_blank">soundstudiesblog.com</a><br><br>
+
+<h5>Collectives</h5>
+Discwoman - <a href="http://www.discwoman.com" target="_blank">discwoman.com</a><br><br>
+TUF - <a href="http://www.tuf-seattle.com" target="_blank">tuf-seattle.com</a><br><br>
+Drömfakulteten - <a href="http://dromfakulteten.tumblr.com" target="_blank">dromfakulteten.tumblr.com</a><br><br>
+UNITI - <a href="https://www.facebook.com/unitildn/" target="_blank">facebook.com/unitildn</a><br><br>
+Resis’dance - <a href="https://resisdance.wixsite.com/london" target="_blank">resisdance.wixsite.com/london</a><br><br>
+The Batty Mama - <a href="https://www.facebook.com/TheBattyMama/" target="_blank">facebook.com/TheBattyMama</a><br><br>
+BBZ London - <a href="http://facebook.com/bbzlondon" target="_blank">facebook.com/bbzlondon</a><br><br>
+Femdex - <a href="http://femdex.net" target="_blank">femdex.net</a><br><br>
+ATTAGIRL! - <a href="https://www.facebook.com/attagirlparty/" target="_blank">facebook.com/attagirlparty</a><br><br>
+SISTER - <a href="https://www.facebook.com/groups/815337868549777/" target="_blank">facebook.com/groups/815337868549777</a><br><br>
+PROTEUS - <a href="https://www.facebook.com/proteuslondon/" target="_blank">facebook.com/proteuslondon</a><br><br>
+Female: Pressure - <a href="http://www.femalepressure.net" target="_blank">femalepressure.net</a><br><br>
+Room 4 Resistance - <a href="https://www.facebook.com/room4resistance
+" target="_blank">facebook.com/room4resistance</a><br><br>
+
+<h5>Labels</h5>
+<a href="http://objects.limited" target="_blank">objects.limited</a><br><br>
+<a href="http://non.com.co" target="_blank">non.com.co</a><br><br><br>
+
+</p>
+      </div>
+
+
+</div><!-- Closed tab-content -->
+</div><!-- closed bs-example -->
+  <script src="js/indexx.js"></script>
+
+<div class="footer">
+  </a>&copy; <a href="http://www.sirenlondon.co.uk">SIREN |</a> As of 2016<br>
+<a href="https://www.facebook.com/sirenldn/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+<a href="https://twitter.com/sirenldn?lang=en"><i class="fa fa-twitter"></i></a>
+<a href="https://www.instagram.com/sirenldn/?hl=en"><i class="fa fa-instagram"></i></a>
+<a href="https://soundcloud.com/sirenldn"><i class="fa fa-soundcloud"></i></a>
+<a href="https://www.mixcloud.com/sirenldn/"><i class="fa fa-mixcloud"></i></a>
+</div><!-- Closed footer -->
+
+  <div id="contentsndcldmain">
+
+<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/199924350&amp;color=000000&amp;inverse=true&amp;auto_play=true&amp;show_user=true" width="100%" height="20" frameborder="no" scrolling="no"></iframe>
+
+</div> <!-- Closed contentsndcldmain --> 
+</div>
+
+
+</body>
+</html>
